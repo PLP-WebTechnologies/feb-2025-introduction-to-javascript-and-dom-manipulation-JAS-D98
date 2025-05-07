@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Mastery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="main-title">Welcome to DOM Mastery 💡</h1>
+      <p>Learn JavaScript DOM manipulation interactively!</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Try the Magic!</h2>
+        <p id="dynamic-text">Click the button below to change me!</p>
+        <button onclick="changeText()">Change Text</button>
+      </section>
+
+      <section class="card">
+        <h2>Style Me</h2>
+        <button onclick="changeStyle()">Toggle Style</button>
+      </section>
+
+      <section class="card">
+        <h2>Element Playground</h2>
+        <button onclick="addItem()">+ Add Element</button>
+        <button onclick="removeItem()">- Remove Element</button>
+        <ul id="element-list"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Crafted with ❤️</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
